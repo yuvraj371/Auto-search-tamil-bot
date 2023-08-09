@@ -8,7 +8,7 @@ USERBOT_STRING_SESSION = ''
 
 # Bot settings
 CACHE_TIME = 300
-USE_CAPTION_FILTER = False
+USE_CAPTION_FILTER = True
 
 # Admins, Channels & Users
 ADMINS = [5787509903, 'admin123', 5151096227]
