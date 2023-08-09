@@ -92,7 +92,7 @@ async def leave_a_chat(bot, message):
             InlineKeyboardButton('Support Group', url="https://t.me/Infinity_XBotz_support"),
             InlineKeyboardButton('Owner', url="@Madhuri_niranjan")
         ],[
-            InlineKeyboardButton('Use Me Here', url=f'https://t.me/{GRP_LINK}')
+            InlineKeyboardButton('Use Me Here', url=f'https://t.me/{GRP_LNK}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
