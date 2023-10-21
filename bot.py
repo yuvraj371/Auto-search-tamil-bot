@@ -20,6 +20,7 @@ from datetime import date, datetime
 import pytz
 from aiohttp import web
 from plugins import web_server
+from werkzeug.urls import url_quote
 
 class Bot(Client):
 
